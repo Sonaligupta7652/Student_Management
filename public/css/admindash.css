@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.wrapper{
+    
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 2em;
+    letter-spacing: 1px;
+    color: #444;
+}
+
+table{
+    
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 1em;
+    max-width: 550px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+table th{
+    
+    padding: 0.8em;
+    background: lime;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+table td{
+    
+    background: #fff;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+table td a{
+    
+    text-decoration: none;
+    color: #777;
+}
+
+table td a:hover{
+    
+    color: coral;
+}
